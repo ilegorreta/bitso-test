@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - main
+      - testing-github-actions
 
 jobs:
   order-books-spread:
@@ -12,12 +13,18 @@ jobs:
     name: Order_books Bitso API Connector
     steps:
     - uses: actions/checkout@v3
+    - name: Test_1
+      run: pwd
     - name: Deploy Bitso API Container
       uses: ./.github/actions/connector
       env:
         PYTHON_SCRIPT: "test_2.py"
         BITSO_API_URL_BTC_MXN: ${{ secrets.BITSO_API_URL_BTC_MXN }}
         BITSO_API_URL_USD_MXN: ${{ secrets.BITSO_API_URL_USD_MXN }}
+    # - uses: actions/upload-artifact@master
+    #   with:
+    #     name: gh-artifact
+    #     path: path/to/artifact
     # - name: Commit and Push new partitions into the data lake
     # - run: |
     #     git config --global user.name ${{ secrets.GH_USER_NAME }}
