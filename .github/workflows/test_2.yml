@@ -1,7 +1,7 @@
 name: test_2_workflow
 on:
   schedule:
-    - cron: '19 * * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   order-books-spread:
