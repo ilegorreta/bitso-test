@@ -8,23 +8,18 @@
 FROM python:3.8-slim
 
 # Set the working directory to /app
-WORKDIR /app
+WORKDIR /workspaces
 
 # Get requirements
-COPY requirements.txt /app
+COPY requirements.txt /workspaces
 
 # Install needed packages (requirements.txt), directories and create credentials mount point.
-RUN pip install -r /app/requirements.txt
-
-# Switch to a non-root users to increase security
-RUN groupadd -r appuser && \
-    useradd -r -g appuser -d /app appuser && \
-    chown -R appuser /app 
-USER appuser
+RUN pip install -r /workspaces/requirements.txt
 
 # Copy the code files and shell script to run them
 # COPY run.sh /app
-COPY src /app/src
+COPY src /workspaces/src
+COPY data /workspaces/data
 
 # Run the shell script when the container launches
 # CMD ["/bin/bash" , "run.sh"]
