@@ -21,10 +21,10 @@ jobs:
         PYTHON_SCRIPT: "test_2.py"
         BITSO_API_URL_BTC_MXN: ${{ secrets.BITSO_API_URL_BTC_MXN }}
         BITSO_API_URL_USD_MXN: ${{ secrets.BITSO_API_URL_USD_MXN }}
-    # - uses: actions/upload-artifact@master
-    #   with:
-    #     name: gh-artifact
-    #     path: path/to/artifact
+    - uses: actions/upload-artifact@v3
+      with:
+        name: gh-artifact
+        path: /home/runner/work/bitso-test/bitso-test/data
     # - name: Commit and Push new partitions into the data lake
     # - run: |
     #     git config --global user.name ${{ secrets.GH_USER_NAME }}
@@ -35,6 +35,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/download-artifact@master
+        with:
+          name: gh-artifact
+          path: /home/runner/work/bitso-test/bitso-test/data
       - name: Commit and Push new partitions into the data lake
         run: |
           git config --global user.name ${{ secrets.GH_USER_NAME }}
