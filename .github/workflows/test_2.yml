@@ -12,25 +12,39 @@ jobs:
     name: Order_books Bitso API Connector
     steps:
     - uses: actions/checkout@v3
-    - name: Deploy Bitso API Container
-      uses: ./.github/actions/connector
-      env:
-        PYTHON_SCRIPT: "test_2.py"
-        BITSO_API_URL_BTC_MXN: ${{ secrets.BITSO_API_URL_BTC_MXN }}
-        BITSO_API_URL_USD_MXN: ${{ secrets.BITSO_API_URL_USD_MXN }}
+    - name: setup python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    - name: install python packages
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+          
+      - name: execute Python script
+        env: 
+          BITSO_API_URL_BTC_MXN: ${{ secrets.BITSO_API_URL_BTC_MXN }}
+          BITSO_API_URL_USD_MXN: ${{ secrets.BITSO_API_URL_USD_MXN }}
+        run: python src/test_2.py
+    # - name: Deploy Bitso API Container
+    #   uses: ./.github/actions/connector
+    #   env:
+    #     PYTHON_SCRIPT: "test_2.py"
+    #     BITSO_API_URL_BTC_MXN: ${{ secrets.BITSO_API_URL_BTC_MXN }}
+    #     BITSO_API_URL_USD_MXN: ${{ secrets.BITSO_API_URL_USD_MXN }}
     # - name: Commit and Push new partitions into the data lake
     # - run: |
     #     git config --global user.name ${{ secrets.GH_USER_NAME }}
     #     git config --global user.email ${{ secrets.GH_USER_EMAIL }}
     #     git status
-  spread-validation:
-    needs: order-books-spread
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Commit and Push new partitions into the data lake
-        run: |
-          git config --global user.name ${{ secrets.GH_USER_NAME }}
-          git config --global user.email ${{ secrets.GH_USER_EMAIL }}
-          git commit -am "Added new partition"
-          git push
+  # spread-validation:
+  #   needs: order-books-spread
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #     - name: Commit and Push new partitions into the data lake
+  #       run: |
+  #         git config --global user.name ${{ secrets.GH_USER_NAME }}
+  #         git config --global user.email ${{ secrets.GH_USER_EMAIL }}
+  #         git commit -am "Added new partition"
+  #         git push
