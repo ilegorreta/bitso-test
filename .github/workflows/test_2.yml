@@ -2,35 +2,55 @@ name: test_2_workflow
 on:
   schedule:
     - cron: '0 * * * *'
-  push:
-    branches:
-      - main
 
 jobs:
   order-books-spread:
     runs-on: ubuntu-latest
     name: Order_books Bitso API Connector
     steps:
-    - uses: actions/checkout@v3
-    - name: Deploy Bitso API Container
-      uses: ./.github/actions/connector
-      env:
-        PYTHON_SCRIPT: "test_2.py"
-        BITSO_API_URL_BTC_MXN: ${{ secrets.BITSO_API_URL_BTC_MXN }}
-        BITSO_API_URL_USD_MXN: ${{ secrets.BITSO_API_URL_USD_MXN }}
-    # - name: Commit and Push new partitions into the data lake
-    # - run: |
-    #     git config --global user.name ${{ secrets.GH_USER_NAME }}
-    #     git config --global user.email ${{ secrets.GH_USER_EMAIL }}
-    #     git status
+      - name: checkout repo content
+        uses: actions/checkout@v3
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.8'    
+      - name: install python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: execute py script
+        env: 
+          BITSO_API_URL_BTC_MXN: ${{ secrets.BITSO_API_URL_BTC_MXN }}
+          BITSO_API_URL_USD_MXN: ${{ secrets.BITSO_API_URL_USD_MXN }}
+        run: python src/test_2.py
+      - uses: actions/upload-artifact@v3
+        with:
+          name: gh-artifact
+          path: /home/runner/work/bitso-test/bitso-test/data/bitso
   spread-validation:
     needs: order-books-spread
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Commit and Push new partitions into the data lake
+      - uses: actions/download-artifact@master
+        with:
+          name: gh-artifact
+          path: /home/runner/work/bitso-test/bitso-test/data/bitso
+      # - name: Commit and Push new partitions into the data lake
+      #   run: |
+      #     git config --global user.name ${{ secrets.GH_USER_NAME }}
+      #     git config --global user.email ${{ secrets.GH_USER_EMAIL }}
+      #     git add --all
+      #     git commit -am "Added new partition"
+      #     git push
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.8'    
+      - name: install python packages
         run: |
-          git config --global user.name ${{ secrets.GH_USER_NAME }}
-          git config --global user.email ${{ secrets.GH_USER_EMAIL }}
-          git commit -am "Added new partition"
-          git push
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: execute py script
+        run: python src/test_2_spread_validation.py
+
