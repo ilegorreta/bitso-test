@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+
 def get_bitso_markets(cg):
     """Retrieves all market tickers based on Bitso exchanger
         by calling the get_exchanges_tickers_by_id endpoint
