@@ -1,0 +1,35 @@
+name: test_2_workflow
+on:
+  schedule:
+    - cron: '0 * * * *'
+  push:
+    branches:
+      - main
+
+jobs:
+  order-books-spread:
+    runs-on: ubuntu-latest
+    name: Order_books Bitso API Connector
+    steps:
+    - uses: actions/checkout@v3
+    - name: Deploy Bitso API Container
+      uses: ./.github/actions/connector
+      env:
+        PYTHON_SCRIPT: "test_2.py"
+
+
+# name: Push commit
+# on: push
+# jobs:
+#   report:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v2
+#       - name: Create report file
+#         run: date +%s > report.txt
+#       - name: Commit report
+#         run: |
+#           git config --global user.name 'Your Name'
+#           git config --global user.email 'your-username@users.noreply.github.com'
+#           git commit -am "Automated report"
+#           git push

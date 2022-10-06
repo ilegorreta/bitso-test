@@ -13,6 +13,7 @@ def main():
     save_book_to_lake(book_1)
     book_2 = get_ticker_attributes(BITSO_API_URL_USD_MXN)
     save_book_to_lake(book_2)
+    print("Finished test 2!")
 
 
 if __name__ == "__main__":

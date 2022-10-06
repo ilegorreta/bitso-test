@@ -2,9 +2,6 @@ name: test_1_workflow
 on:
   schedule:
     - cron: '0 11 * * *'
-  push:
-    branches:
-      - main
 
 jobs:
   coingecko-connector:
@@ -13,4 +10,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Deploy CoinGecko Container
-      uses: ./.github/actions/coingecko_connector
+      uses: ./.github/actions/connector

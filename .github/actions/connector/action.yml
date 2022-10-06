@@ -1,0 +1,10 @@
+---
+name: "Bitso Test Container deployment"
+author: "Ivan Legorreta"
+description: "Run container based on the root Dockerfile and trigger the corresponding Python script"
+runs:
+  using: "docker"
+  image: "../../../Dockerfile"
+  env:
+    WORK_DIR: "src"
+    PYTHON_SCRIPT: "{{ env_var('PYTHON_SCRIPT') }}"
