@@ -1,0 +1,10 @@
+---
+name: "Test_1: CoinGecko API Connector"
+author: "Ivan Legorreta"
+description: "“Markets team” needs to track and monitor the activity from all the exchanges that offer the same markets as bitso."
+runs:
+  using: "docker"
+  image: "../../../Dockerfile"
+  env:
+    WORK_DIR: "src"
+    PYTHON_SCRIPT: "test_1.py"
