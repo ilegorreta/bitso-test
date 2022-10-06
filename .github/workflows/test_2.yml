@@ -22,5 +22,4 @@ jobs:
     - run: |
         git config --global user.name ${{ secrets.GH_USER_NAME }}
         git config --global user.email ${{ secrets.GH_USER_EMAIL }}
-        git commit -am "Added new partition"
-        git push
+        git status
