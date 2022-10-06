@@ -13,9 +13,9 @@ jobs:
     name: Order_books Bitso API Connector
     steps:
     - name: checkout repo content 
-      uses: actions/checkout@v3
+      uses: actions/checkout@v2
     - name: setup python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v2
       with:
         python-version: 3.8
     - name: install python packages
