@@ -8,24 +8,24 @@ on:
       - testing-github-actions
 
 jobs:
-  build:
+  order-books-spread:
     runs-on: ubuntu-latest
     steps:
 
       - name: checkout repo content
-        uses: actions/checkout@v3 # checkout the repository content to github runner
+        uses: actions/checkout@v3
 
       - name: setup python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.8' # install the python version needed
+          python-version: '3.8'
           
       - name: install python packages
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           
-      - name: execute py script # run sj-gobierno.py to get the latest data
+      - name: execute py script
         env: 
           BITSO_API_URL_BTC_MXN: ${{ secrets.BITSO_API_URL_BTC_MXN }}
           BITSO_API_URL_USD_MXN: ${{ secrets.BITSO_API_URL_USD_MXN }}

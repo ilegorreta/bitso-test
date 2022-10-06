@@ -53,4 +53,4 @@ class Ticker:
 
     def get_partition_path(self):
         """Format the partition path where the file will be saved within the lake"""
-        self.path = f"/workspaces/bitso-test/data/{EXCHANGE}/{self.book}/{self.day}/{self.hour}/"
+        self.path = f"/home/runner/work/bitso-test/bitso-test/data/{EXCHANGE}/{self.book}/{self.day}/{self.hour}/"
