@@ -19,7 +19,6 @@ RUN pip install -r /workspaces/requirements.txt
 # Copy the code files and shell script to run them
 COPY run.sh /workspaces
 COPY src /workspaces/src
-COPY data /workspaces/data
 
 # Run the shell script when the container launches
 CMD ["/bin/bash" , "run.sh"]

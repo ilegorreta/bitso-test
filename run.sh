@@ -9,3 +9,5 @@ if [ "${PYTHON_SCRIPT}" != "" ] ; then
     echo "Running Python Script"
     python ${PYTHON_SCRIPT}
 fi
+
+mkdir /workspaces/data
