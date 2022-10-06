@@ -9,6 +9,7 @@ BITSO_API_URL_USD_MXN = os.getenv("BITSO_API_URL_USD_MXN")
 
 
 def main():
+    print("Starting...")
     book_1 = get_ticker_attributes(BITSO_API_URL_BTC_MXN)
     save_book_to_lake(book_1)
     book_2 = get_ticker_attributes(BITSO_API_URL_USD_MXN)
