@@ -19,7 +19,18 @@ jobs:
         BITSO_API_URL_BTC_MXN: ${{ secrets.BITSO_API_URL_BTC_MXN }}
         BITSO_API_URL_USD_MXN: ${{ secrets.BITSO_API_URL_USD_MXN }}
     # - name: Commit and Push new partitions into the data lake
-    - run: |
-        git config --global user.name ${{ secrets.GH_USER_NAME }}
-        git config --global user.email ${{ secrets.GH_USER_EMAIL }}
-        git status
+    # - run: |
+    #     git config --global user.name ${{ secrets.GH_USER_NAME }}
+    #     git config --global user.email ${{ secrets.GH_USER_EMAIL }}
+    #     git status
+  spread-validation:
+    needs: order-books-spread
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Commit and Push new partitions into the data lake
+        run: |
+          git config --global user.name ${{ secrets.GH_USER_NAME }}
+          git config --global user.email ${{ secrets.GH_USER_EMAIL }}
+          git commit -am "Added new partition"
+          git push
