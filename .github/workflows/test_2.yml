@@ -18,20 +18,14 @@ jobs:
         PYTHON_SCRIPT: "test_2.py"
         BITSO_API_URL_BTC_MXN: ${{ secrets.BITSO_API_URL_BTC_MXN }}
         BITSO_API_URL_USD_MXN: ${{ secrets.BITSO_API_URL_USD_MXN }}
-
-
-# name: Push commit
-# on: push
-# jobs:
-#   report:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@v2
-#       - name: Create report file
-#         run: date +%s > report.txt
-#       - name: Commit report
-#         run: |
-#           git config --global user.name 'Your Name'
-#           git config --global user.email 'your-username@users.noreply.github.com'
-#           git commit -am "Automated report"
-#           git push
+  spread-validation:
+    needs: order-books-spread
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Commit and Push new partitions into the data lake
+        run: |
+          git config --global user.name ${{ secrets.GH_USER_NAME }}
+          git config --global user.email ${{ secrets.GH_USER_EMAIL }}
+          git commit -am "Added new partition"
+          git push
