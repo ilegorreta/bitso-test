@@ -16,6 +16,8 @@ jobs:
       uses: ./.github/actions/connector
       env:
         PYTHON_SCRIPT: "test_2.py"
+        BITSO_API_URL_BTC_MXN: ${{ secrets.BITSO_API_URL_BTC_MXN }}
+        BITSO_API_URL_USD_MXN: ${{ secrets.BITSO_API_URL_USD_MXN }}
 
 
 # name: Push commit
