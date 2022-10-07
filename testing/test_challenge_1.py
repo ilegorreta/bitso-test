@@ -25,7 +25,7 @@ def test_raises_exchange_markets_error():
     """Raises a ExchangeMarketsException"""
     cg = CoinGeckoAPI()
     bitso_markets = {
-        "bytcoin": {
+        "bytcoyyyyn": {
             "targets": ["MXN", "USD", "USDT", "DAI", "BRL", "ARS"],
             "id": "BTC",
         }
