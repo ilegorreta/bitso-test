@@ -109,7 +109,7 @@ It is noteworthy pointing out the directory structure of the repository:
 
 ---
 ## Future Considerations
-Due to the time constraints during the development of this project, there were a couple of pending implementations which could benefit the overall functionality of the applications:
+Due to the time constraints during the development of this project, there were a couple of pending implementations which could improve the overall functionality of the applications:
   - Update rather than ingest all the data again for the days following the first run on the first challenge
   - Use Webhooks on the Bitso API integration
   - Unit testing
