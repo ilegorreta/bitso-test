@@ -34,6 +34,8 @@ Each time any of the workflows runs, we are commiting and pushing the changes in
 It is worth mentioning that since this is a development project, I am deliberately commiting the ```.env``` file containing the corresponding environment variables into the repo, for the sake of reproducibility. In a real prod environment this should be part of the ```.gitignore``` file and could take advantage of [GitHub Secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets).
 The credentials for the GitHub account, as well as the Bitso API endpoints were encrypted using GitHub Secrets.
 
+Finally, an automated unit testing was developed using [Pytest](https://docs.pytest.org/en/7.0.x/) and [GitHub Actions](https://docs.github.com/en/actions) as a CI/CD deployment everytime there is a new Push or Pull Request on the Main branch of the repo. 
+
 ---
 ## Requirements
 * [Docker](https://docs.docker.com/get-docker/)
@@ -112,7 +114,7 @@ It is noteworthy pointing out the directory structure of the repository:
 Due to the time constraints during the development of this project, there were a couple of pending implementations which could improve the overall functionality of the applications:
   - Update rather than ingest all the data again for the days following the first run on the first challenge
   - Use Webhooks on the Bitso API integration
-  - Unit testing
+  - Improve Unit Test Coverage (Currently 66%)
   - Optimize the logic behind the integration with CoinGecko API on the first challenge to avoid making so much API requests, since the request-limit is around 10-50 calls per minute. NOTE: To speed the execution of the first application (```src/test_1.py```), uncomment lines 54 and 55 so it only looks for Ethereum related markets
 
 
