@@ -6,6 +6,18 @@ import pathlib
 from utils.Ticker import Ticker
 
 
+class CustomException(Exception):
+    """Base class for other exceptions regarding Bitso Sr. Data Engineer Challenge"""
+
+    pass
+
+
+class TinkerException(CustomException):
+    """Raised when the Tinker object is not well defined"""
+
+    pass
+
+
 def get_ticker_attributes(api_endpoint):
     """Creates Ticker object and populates its corresponding attributes
 
@@ -28,8 +40,11 @@ def save_book_to_lake(book):
     Args:
         book: Ticker object with all the order_book information loaded
     """
-    pathlib.Path(book.path).mkdir(parents=True, exist_ok=True)
-    with open(f"{book.path}/files.csv", "w") as f:
-        w = csv.DictWriter(f, book.result.keys())
-        w.writeheader()
-        w.writerow(book.result)
+    try:
+        pathlib.Path(book.path).mkdir(parents=True, exist_ok=True)
+        with open(f"{book.path}/files.csv", "w") as f:
+            w = csv.DictWriter(f, book.result.keys())
+            w.writeheader()
+            w.writerow(book.result)
+    except AttributeError as e:
+        raise TinkerException("Invalid Ticker object")

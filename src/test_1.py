@@ -8,6 +8,7 @@ from utils.utils_test_1 import (
     get_bitso_markets,
     get_all_exchange_markets,
     get_exchanges_list,
+    save_df_to_csv,
 )
 
 
@@ -16,7 +17,7 @@ def main():
     # Get CoinGeckoAPI object
     cg = CoinGeckoAPI()
     # Get bitso_markets dictionary
-    bitso_markets = get_bitso_markets(cg)
+    bitso_markets = get_bitso_markets(cg, "bitso")
     # Get exchange_markets list
     exchange_markets = get_all_exchange_markets(cg, bitso_markets)
     # Convert exchange_markets list into Pandas DF
@@ -35,14 +36,13 @@ def main():
     ]
     print("Writing DF to CSV...")
     # Save dataframes as CSV files
-    exchanges_df.to_csv(
+    save_df_to_csv(
+        exchanges_df,
         "/home/runner/work/bitso-test/bitso-test/data/test_1/similar_exchanges.csv",
-        index_label=False,
     )
-    exchange_markets_df.to_csv(
+    save_df_to_csv(
+        exchange_markets_df,
         "/home/runner/work/bitso-test/bitso-test/data/test_1/markets.csv",
-        index=False,
-        index_label=False,
     )
     print("Finished!!")
 

@@ -4,6 +4,18 @@
 import csv
 
 
+class CustomException(Exception):
+    """Base class for other exceptions regarding Bitso Sr. Data Engineer Challenge"""
+
+    pass
+
+
+class UTCTimeException(CustomException):
+    """Raised when the UTC Time provided is not a string"""
+
+    pass
+
+
 class SpreadValidator:
     """Class template for validating bid-ask spread for a giveen order book
 
@@ -20,6 +32,8 @@ class SpreadValidator:
 
     def validate_spread(self):
         """Validate if the bid-ask spread is above the given threshold"""
+        if not isinstance(self.utc_time, str):
+            raise UTCTimeException("UTC Time provided is not string")
         year = self.utc_time.strftime("%Y")
         month = self.utc_time.strftime("%m")
         day = self.utc_time.strftime("%d")
