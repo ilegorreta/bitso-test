@@ -11,21 +11,21 @@ jobs:
     runs-on: ubuntu-latest
     name: CoinGecko Connector
     steps:
-    - uses: actions/checkout@v3
-    - name: setup python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.8'    
-      - name: install python packages
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-      - name: execute py script
-        run: python src/test_1.py
-      - uses: actions/upload-artifact@v3
-        with:
-          name: gh-artifact
-          path: /home/runner/work/bitso-test/bitso-test/data/test_1
+      - uses: actions/checkout@v3
+      - name: setup python
+          uses: actions/setup-python@v4
+          with:
+            python-version: '3.8'    
+        - name: install python packages
+          run: |
+            python -m pip install --upgrade pip
+            pip install -r requirements.txt
+        - name: execute py script
+          run: python src/test_1.py
+        - uses: actions/upload-artifact@v3
+          with:
+            name: gh-artifact
+            path: /home/runner/work/bitso-test/bitso-test/data/test_1
   push-to-repo:
     needs: coingecko-connector
     runs-on: ubuntu-latest
