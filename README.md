@@ -42,6 +42,7 @@ As said before, the project is going to be automatically running at a given sche
 
 I developed this project making use of [VSCode DevContainers](https://code.visualstudio.com/docs/remote/containers), based on the Dockerfile provided in the repository. It is also posible to manually create a Docker image based on this Dockerfile and to enter a container using that image (that's basically what VSCode DevContainers is doing under the hood).
 
+---
 It is noteworthy pointing out the directory structure of the repository:
 
 ```
@@ -92,3 +93,13 @@ It is noteworthy pointing out the directory structure of the repository:
         ├── utils_test_1.py
         └── utils_test_2.py
 ```
+
+---
+## Additional useful resources
+* [Postman](https://www.postman.com/) - API platform for testing APIs
+* [VS Code](https://code.visualstudio.com/) - Code Editor and IDE
+
+## Developed by: Ivan Legorreta
+**Phone number**: +52 55 1320 7574
+
+**Email**: ilegorreta@outlook.com
