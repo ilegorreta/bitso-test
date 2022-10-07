@@ -51,8 +51,8 @@ def get_all_exchange_markets(cg, bitso_markets):
     exchange_markets = set()
     cont = 1
     for market in bitso_markets.keys():
-        if market != "ethereum":
-            continue
+        # if market != "ethereum":
+        #     continue
         # Starts pagination logic
         while True:
             print(f"Coin: {market}; page: {cont}:")
