@@ -36,10 +36,13 @@ def main():
     print("Writing DF to CSV...")
     # Save dataframes as CSV files
     exchanges_df.to_csv(
-        "/workspaces/bitso-test/data/test_1/similar_exchanges.csv", index_label=False
+        "/home/runner/work/bitso-test/bitso-test/data/test_1/similar_exchanges.csv",
+        index_label=False,
     )
     exchange_markets_df.to_csv(
-        "/workspaces/bitso-test/data/test_1/markets.csv", index=False, index_label=False
+        "/home/runner/work/bitso-test/bitso-test/data/test_1/markets.csv",
+        index=False,
+        index_label=False,
     )
     print("Finished!!")
 
