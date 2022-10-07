@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import os
-from pycoingecko import CoinGeckoAPI
 import pandas as pd
+from pycoingecko import CoinGeckoAPI
 
 from utils.utils_test_1 import (
     get_bitso_markets,
@@ -35,7 +34,6 @@ def main():
         exchanges_df.exchange_id.isin(exchange_markets_df.exchange_id)
     ]
     print("Writing DF to CSV...")
-    print(f"PWD: {os.getcwd()}")
     # Save dataframes as CSV files
     exchanges_df.to_csv(
         "/home/runner/work/bitso-test/bitso-test/data/test_1/similar_exchanges.csv",
