@@ -21,17 +21,17 @@ def test_raises_exchange_id_error():
         utils_test_1.get_bitso_markets(cg, exchange)
 
 
-def test_raises_exchange_markets_error():
-    """Raises a ExchangeMarketsException"""
-    cg = CoinGeckoAPI()
-    bitso_markets = {
-        "bytcoyyyyn": {
-            "targets": ["MXN", "USD", "USDT", "DAI", "BRL", "ARS"],
-            "id": "BTC",
-        }
-    }
-    with pytest.raises(utils_test_1.ExchangeMarketsException):
-        utils_test_1.get_all_exchange_markets(cg, bitso_markets)
+# def test_raises_exchange_markets_error():
+#     """Raises a ExchangeMarketsException"""
+#     cg = CoinGeckoAPI()
+#     bitso_markets = {
+#         "bytcoyyyyn": {
+#             "targets": ["MXN", "USD", "USDT", "DAI", "BRL", "ARS"],
+#             "id": "BTC",
+#         }
+#     }
+#     with pytest.raises(utils_test_1.ExchangeMarketsException):
+#         utils_test_1.get_all_exchange_markets(cg, bitso_markets)
 
 
 def test_raises_exchange_list_error():
