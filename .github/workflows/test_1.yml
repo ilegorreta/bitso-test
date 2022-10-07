@@ -23,10 +23,10 @@ jobs:
           pip install -r requirements.txt
       - name: execute py script
         run: python src/test_1.py
-        - uses: actions/upload-artifact@v3
-          with:
-            name: gh-artifact
-            path: /home/runner/work/bitso-test/bitso-test/data/test_1
+      - uses: actions/upload-artifact@v3
+        with:
+          name: gh-artifact
+          path: /home/runner/work/bitso-test/bitso-test/data/test_1
   push-to-repo:
     needs: coingecko-connector
     runs-on: ubuntu-latest
