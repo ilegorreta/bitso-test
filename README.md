@@ -113,6 +113,7 @@ Due to the time constraints during the development of this project, there were a
   - Update rather than ingest all the data again for the days following the first run on the first challenge
   - Use Webhooks on the Bitso API integration
   - Unit testing
+  - Optimize the logic behind the integration with CoinGecko API on the first challenge to avoid making so much API requests, since the request-limit is around 10-50 calls per minute. NOTE: To speed the execution of the first application (```src/test_1.py```), uncomment lines 54 and 55 so it only looks for Ethereum related markets
 
 
 ## Developed by: Ivan Legorreta
