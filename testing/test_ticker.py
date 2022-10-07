@@ -18,11 +18,11 @@ def test_raises_endpoint_not_valid():
         Ticker.Ticker.get_bitso_api_data(tk)
 
 
-def test_raises_endpoint_not_valid():
-    """Raises a IsAboveNotBooleanException"""
+def test_raises_book_not_str():
+    """Raises a BookNotStrException"""
     tk = Ticker.Ticker("https://dummy")
-    tk.is_above = "Yes"
-    with pytest.raises(Ticker.IsAboveNotBooleanException):
+    tk.book = True
+    with pytest.raises(Ticker.BookNotStrException):
         Ticker.Ticker.format_result(tk)
 
 

@@ -20,8 +20,8 @@ class BitsoEndpointException(CustomException):
     pass
 
 
-class IsAboveNotBooleanException(CustomException):
-    """Raised when is_above field not boolean"""
+class BookNotStrException(CustomException):
+    """Raised when book field not string"""
 
     pass
 
@@ -69,8 +69,8 @@ class Ticker:
 
     def format_result(self):
         """Create the Dict result attribute"""
-        if not isinstance(self.is_above, bool):
-            raise IsAboveNotBooleanException("is_above field not boolean")
+        if not isinstance(self.book, str):
+            raise BookNotStrException("book field not string")
         self.result = {
             "orderbook_timestamp": self.timestamp,
             "book": self.book,
