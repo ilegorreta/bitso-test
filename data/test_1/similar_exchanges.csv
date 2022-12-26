@@ -5,13 +5,13 @@ kucoin,KuCoin,10,3
 bybit_spot,Bybit,10,4
 crypto_com,Crypto.com Exchange,10,5
 kraken,Kraken,10,6
-binance_us,Binance US,10,7
-bitfinex,Bitfinex,10,8
-binance,Binance,9,9
+bitfinex,Bitfinex,10,7
+binance,Binance,9,8
+okex,OKX,9,10
 gate,Gate.io,9,11
-okex,OKX,9,12
+binance_us,Binance US,9,12
 phemex,Phemex,9,13
-bitstamp,Bitstamp,9,14
+indodax,Indodax,8,14
 bittrex,Bittrex,9,15
 gemini,Gemini,9,16
 wootrade,WOO Network,9,17
@@ -24,49 +24,53 @@ bitget,Bitget,8,23
 bithumb,Bithumb,8,24
 btcex,BTCEX,8,25
 bigone,BigONE,8,26
-coinex,CoinEx,8,28
-bitflyer,bitFlyer,8,29
-indodax,Indodax,8,30
-bitazza,Bitazza,8,31
-luno,Luno,8,33
-blockchain_com,Blockchain.com,8,35
-kuna,Kuna Exchange,8,36
-delta_spot,Delta Exchange,8,37
-emirex,Emirex,8,38
-coin_metro,Coinmetro,8,39
-lbank,LBank,7,40
-upbit,Upbit,7,41
-xt,XT.COM,7,42
-bitrue,Bitrue,7,43
-hotbit,Hotbit,7,44
-p2pb2b,P2B,7,45
-poloniex,Poloniex,7,46
-dextrade,Dex-Trade,7,47
-exmo,EXMO,7,49
-btcturk,BtcTurk PRO,7,50
-bitmax,AscendEX (BitMax),7,52
-coinstore,Coinstore,7,54
-bitcoin_com,FMFW.io,7,55
-bitso,Bitso,7,56
+poloniex,Poloniex,8,27
+bitstamp,Bitstamp,8,28
+exmo,EXMO,8,29
+bitflyer,bitFlyer,8,31
+bitmax,AscendEX (BitMax),8,32
+coinex,CoinEx,8,33
+bitazza,Bitazza,8,34
+okcoin,Okcoin,8,35
+independent_reserve,Independent Reserve,8,36
+luno,Luno,8,37
+itbit,itBit,8,38
+blockchain_com,Blockchain.com,8,39
+emirex,Emirex,8,41
+delta_spot,Delta Exchange,8,42
+coin_metro,Coinmetro,8,43
+lbank,LBank,7,44
+upbit,Upbit,7,45
+bitmart,BitMart,7,46
+xt,XT.COM,7,47
+bitrue,Bitrue,7,48
+hotbit,Hotbit,7,49
+p2pb2b,P2B,7,50
+dextrade,Dex-Trade,7,51
+bit_com,BIT,7,52
+paribu,Paribu,7,53
+coinstore,Coinstore,7,56
+bitcoin_com,FMFW.io,6,57
 toko_crypto,TokoCrypto,7,59
-independent_reserve,Independent Reserve,7,60
+bitso,Bitso,7,60
+max_maicoin,Max Maicoin,7,61
 nominex,Nominex,7,62
-cex,CEX.IO,7,63
+bilaxy,Bilaxy,7,63
 bitpanda,Bitpanda Pro,7,64
-cryptology,Cryptology,7,67
-zaif,Zaif,7,68
-coinlist,Coinlist,7,69
-foxbit,Foxbit,7,70
+cex,CEX.IO,7,65
+kuna,Kuna Exchange,7,67
+cryptology,Cryptology,7,68
+zaif,Zaif,7,69
+coinlist,Coinlist,7,70
 nice_hash,NiceHash,7,71
-bitmart,BitMart,6,72
-bitforex,Bitforex,6,73
-bibox,Bibox,6,76
-paribu,Paribu,6,77
+bitforex,Bitforex,6,72
+bibox,Bibox,6,75
+btcturk,BtcTurk PRO,6,77
 latoken,LATOKEN,6,79
-kanga,Kanga,6,83
-bitbns,BitBNS,6,85
-btse,BTSE,6,92
-currency,Currency.com,6,93
-bilaxy,Bilaxy,5,95
-bitopro,BitoPro,6,98
-finexbox,FinexBox,6,99
+bitbns,BitBNS,6,83
+kanga,Kanga,6,85
+btcmarkets,BTCMarkets,6,86
+btse,BTSE,6,87
+currency,Currency.com,6,88
+bitopro,BitoPro,6,96
+stormgain,Stormgain,6,99
