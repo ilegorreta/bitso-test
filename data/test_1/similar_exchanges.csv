@@ -5,55 +5,57 @@ okex,OKX,10,3
 kraken,Kraken,10,4
 kucoin,KuCoin,10,5
 huobi,Huobi,10,6
-crypto_com,Crypto.com Exchange,10,7
-bybit_spot,Bybit,10,8
+bybit_spot,Bybit,10,7
+crypto_com,Crypto.com Exchange,10,8
 binance_us,Binance US,10,9
 bitfinex,Bitfinex,10,10
 bitget,Bitget,9,11
 gate,Gate.io,9,13
 mxc,MEXC Global,8,15
-bitstamp,Bitstamp,8,16
-bitmax,AscendEX (BitMax),8,17
-gemini,Gemini,8,18
-bittrex,Bittrex,8,19
+bigone,BigONE,8,16
+bitstamp,Bitstamp,8,17
+bitmax,AscendEX (BitMax),8,18
+gemini,Gemini,8,19
 wootrade,WOO Network,8,20
-bitmex_spot,BitMEX,8,21
-bitrue,Bitrue,7,23
+bittrex,Bittrex,8,21
+upbit,Upbit,7,23
 xt,XT.COM,7,25
-digifinex,DigiFinex,7,26
+bitrue,Bitrue,7,26
 whitebit,WhiteBIT,7,27
-p2pb2b,P2B,7,29
-bigone,BigONE,7,30
+digifinex,DigiFinex,7,28
+p2pb2b,P2B,7,30
 bithumb,Bithumb,7,31
 paribu,Paribu,7,32
 poloniex,Poloniex,7,33
 hotbit,Hotbit,7,34
 exmo,EXMO,7,36
 coinex,CoinEx,7,38
-independent_reserve,Independent Reserve,7,40
-nominex,Nominex,7,41
-luno,Luno,7,44
-bitazza,Bitazza,7,45
-emirex,Emirex,7,48
+nominex,Nominex,7,40
+luno,Luno,7,43
+bitazza,Bitazza,7,44
+blockchain_com,Blockchain.com,7,46
+emirex,Emirex,7,47
 coin_metro,Coinmetro,7,49
 delta_spot,Delta Exchange,7,50
-upbit,Upbit,6,51
-coinsbit,Coinsbit,6,53
-dextrade,Dex-Trade,6,55
+coinsbit,Coinsbit,6,52
+dextrade,Dex-Trade,6,54
+btcturk,BtcTurk PRO,6,55
 latoken,LATOKEN,6,57
-bitcoin_com,FMFW.io,6,63
-bitso,Bitso,6,65
-toko_crypto,TokoCrypto,6,75
-finexbox,FinexBox,6,78
+bitso,Bitso,6,63
+bitcoin_com,FMFW.io,6,64
+independent_reserve,Independent Reserve,6,69
+toko_crypto,TokoCrypto,6,74
+finexbox,FinexBox,6,76
+bitpanda,Bitpanda Pro,6,83
 cryptology,Cryptology,6,86
-cex,CEX.IO,6,88
-bitlo,Bitlo,6,89
+cex,CEX.IO,6,87
+foxbit,Foxbit,6,88
 kuna,Kuna Exchange,6,90
-coinlist,Coinlist,6,92
-zaif,Zaif,6,93
-nice_hash,NiceHash,6,94
-nash,Nash,6,95
-bitforex,Bitforex,5,96
-tidex,Tidex,5,98
+zaif,Zaif,6,91
+nice_hash,NiceHash,6,93
+coinlist,Coinlist,6,94
+lcx,LCX Exchange,6,95
+nash,Nash,6,96
+bitforex,Bitforex,5,97
 localtrade,LocalTrade,5,99
-btcturk,BtcTurk PRO,5,100
+tidex,Tidex,5,100
