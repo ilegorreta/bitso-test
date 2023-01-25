@@ -15,50 +15,50 @@ gate,Gate.io,9,14
 xt,XT.COM,8,17
 upbit,Upbit,8,18
 bitstamp,Bitstamp,8,20
-btcturk,BtcTurk PRO,8,21
 latoken,LATOKEN,8,22
 exmo,EXMO,8,23
-gemini,Gemini,8,26
-bitso,Bitso,8,27
-bittrex,Bittrex,8,30
-indodax,Indodax,8,31
-whitebit,WhiteBIT,7,33
-digifinex,DigiFinex,7,34
+bitso,Bitso,8,26
+gemini,Gemini,8,27
+bittrex,Bittrex,8,28
+digifinex,DigiFinex,7,33
+whitebit,WhiteBIT,7,34
+bithumb,Bithumb,7,35
 p2pb2b,P2B,7,36
-bithumb,Bithumb,7,37
 tidex,Tidex,7,38
-dextrade,Dex-Trade,7,40
-poloniex,Poloniex,7,41
-hotbit,Hotbit,7,42
-bitflyer,bitFlyer,7,43
-bitmax,AscendEX (BitMax),7,44
-coinex,CoinEx,7,46
-cryptology,Cryptology,7,47
-btse,BTSE,6,48
-bitci,Bitci,7,49
-independent_reserve,Independent Reserve,7,50
-luno,Luno,7,51
-finexbox,FinexBox,7,53
+dextrade,Dex-Trade,7,39
+btcturk,BtcTurk PRO,7,40
+hotbit,Hotbit,7,41
+bitflyer,bitFlyer,7,42
+bitmax,AscendEX (BitMax),7,43
+coinex,CoinEx,7,45
+cryptology,Cryptology,7,46
+btse,BTSE,7,47
+bitci,Bitci,7,48
+bitpanda,Bitpanda Pro,7,49
+luno,Luno,7,50
+finexbox,FinexBox,7,52
+indodax,Indodax,7,53
 bitopro,BitoPro,7,55
-emirex,Emirex,7,56
-delta_spot,Delta Exchange,7,57
-coin_metro,Coinmetro,7,58
-nice_hash,NiceHash,7,60
-coinsbit,Coinsbit,6,61
-dcoin,Dcoin,6,63
-bitforex,Bitforex,6,64
-paribu,Paribu,6,65
-bitcoin_com,FMFW.io,6,72
-catex,Catex,6,81
-nominex,Nominex,6,82
-toko_crypto,TokoCrypto,6,83
-tokenize,Tokenize,6,84
-bitazza,Bitazza,6,87
-coinzoom,Coinzoom,6,93
-wazirx,WazirX,6,94
-cex,CEX.IO,6,95
-foxbit,Foxbit,6,96
-zaif,Zaif,6,97
-blockchain_com,Blockchain.com,6,98
-bitlo,Bitlo,6,99
-kuna,Kuna Exchange,6,100
+coin_metro,Coinmetro,7,56
+emirex,Emirex,7,57
+delta_spot,Delta Exchange,7,58
+nice_hash,NiceHash,7,59
+coinsbit,Coinsbit,6,60
+paribu,Paribu,6,62
+poloniex,Poloniex,7,65
+bitcoin_com,FMFW.io,6,69
+catex,Catex,6,76
+independent_reserve,Independent Reserve,6,77
+toko_crypto,TokoCrypto,6,78
+nominex,Nominex,6,80
+tokenize,Tokenize,6,81
+bitazza,Bitazza,6,84
+coinzoom,Coinzoom,6,87
+wazirx,WazirX,6,92
+cex,CEX.IO,6,93
+blockchain_com,Blockchain.com,6,94
+bitlo,Bitlo,6,95
+zaif,Zaif,6,96
+kuna,Kuna Exchange,6,97
+coinlist,Coinlist,6,98
+nash,Nash,6,99
