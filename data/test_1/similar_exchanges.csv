@@ -3,15 +3,15 @@ gdax,Coinbase Exchange,10,1
 okex,OKX,10,2
 kucoin,KuCoin,10,3
 kraken,Kraken,10,4
-bybit_spot,Bybit,10,5
-crypto_com,Crypto.com Exchange,10,6
-huobi,Huobi,10,7
+crypto_com,Crypto.com Exchange,10,5
+huobi,Huobi,10,6
+bybit_spot,Bybit,10,7
 binance_us,Binance US,10,8
 bitfinex,Bitfinex,10,9
 binance,Binance,9,10
 mxc,MEXC Global,9,11
 upbit,Upbit,9,12
-bitget,Bitget,9,14
+bitget,Bitget,9,13
 gate,Gate.io,9,15
 xt,XT.COM,8,18
 bitstamp,Bitstamp,8,20
@@ -19,43 +19,48 @@ btcturk,BtcTurk PRO,8,22
 latoken,LATOKEN,8,23
 exmo,EXMO,8,24
 bitso,Bitso,8,26
-gemini,Gemini,8,27
-bittrex,Bittrex,8,29
-digifinex,DigiFinex,7,33
-whitebit,WhiteBIT,7,34
-p2pb2b,P2B,7,36
-tidex,Tidex,7,37
-bithumb,Bithumb,7,38
-dextrade,Dex-Trade,7,39
-hotbit,Hotbit,7,40
-poloniex,Poloniex,6,41
-bitflyer,bitFlyer,7,42
-coinex,CoinEx,7,43
-bitmax,AscendEX (BitMax),7,44
-cryptology,Cryptology,7,46
-btse,BTSE,7,47
-bitci,Bitci,7,48
-luno,Luno,7,49
-indodax,Indodax,7,50
+gemini,Gemini,8,28
+bittrex,Bittrex,8,30
+indodax,Indodax,8,33
+digifinex,DigiFinex,7,35
+whitebit,WhiteBIT,7,36
+p2pb2b,P2B,7,38
+bithumb,Bithumb,7,39
+tidex,Tidex,7,40
+dextrade,Dex-Trade,7,41
+hotbit,Hotbit,7,42
+poloniex,Poloniex,7,43
+bitflyer,bitFlyer,7,44
+coinex,CoinEx,7,45
+bitmax,AscendEX (BitMax),7,46
+cryptology,Cryptology,7,47
+btse,BTSE,7,48
+bitci,Bitci,7,49
+luno,Luno,7,50
 finexbox,FinexBox,7,51
+bitpanda,Bitpanda Pro,7,52
 bitopro,BitoPro,7,53
-bitpanda,Bitpanda Pro,7,54
-coin_metro,Coinmetro,7,56
-emirex,Emirex,7,57
-delta_spot,Delta Exchange,7,58
-nice_hash,NiceHash,7,60
+wazirx,WazirX,6,54
+emirex,Emirex,7,58
+coin_metro,Coinmetro,7,59
+delta_spot,Delta Exchange,7,60
+nice_hash,NiceHash,7,61
 coinsbit,Coinsbit,6,62
-bitforex,Bitforex,6,63
-paribu,Paribu,6,65
+paribu,Paribu,6,66
 bitcoin_com,FMFW.io,6,71
-catex,Catex,6,76
+catex,Catex,6,77
 toko_crypto,TokoCrypto,6,79
-independent_reserve,Independent Reserve,5,82
+independent_reserve,Independent Reserve,6,81
+kanga,Kanga,6,83
 nominex,Nominex,6,84
 tokenize,Tokenize,6,85
-bitazza,Bitazza,6,89
-coinzoom,Coinzoom,6,95
-wazirx,WazirX,6,97
-blockchain_com,Blockchain.com,6,98
-foxbit,Foxbit,6,99
-kuna,Kuna Exchange,6,100
+bitazza,Bitazza,6,86
+coinzoom,Coinzoom,6,87
+blockchain_com,Blockchain.com,6,92
+kuna,Kuna Exchange,6,94
+therocktrading,TheRockTrading,6,95
+zaif,Zaif,6,96
+bitlo,Bitlo,6,97
+foxbit,Foxbit,6,98
+nash,Nash,6,99
+btcsquare,BTCSquare,6,100
