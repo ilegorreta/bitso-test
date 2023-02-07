@@ -9,58 +9,55 @@ bybit_spot,Bybit,10,7
 binance_us,Binance US,10,8
 bitfinex,Bitfinex,10,9
 binance,Binance,9,10
-mxc,MEXC Global,9,11
-bitget,Bitget,9,12
-xt,XT.COM,8,16
+bitget,Bitget,9,11
+mxc,MEXC Global,8,15
+gate,Gate.io,8,16
 upbit,Upbit,8,17
-gate,Gate.io,8,18
-bigone,BigONE,8,19
-bitstamp,Bitstamp,8,21
-latoken,LATOKEN,8,22
-exmo,EXMO,8,23
-coinex,CoinEx,8,25
+bitstamp,Bitstamp,8,19
+latoken,LATOKEN,8,20
+exmo,EXMO,8,22
+coinex,CoinEx,8,24
+gemini,Gemini,8,25
 bitso,Bitso,8,26
-gemini,Gemini,8,27
-bittrex,Bittrex,8,29
-indodax,Indodax,8,32
+bittrex,Bittrex,8,28
+indodax,Indodax,8,31
+xt,XT.COM,7,32
 digifinex,DigiFinex,7,34
-whitebit,WhiteBIT,7,36
-tidex,Tidex,7,37
-bithumb,Bithumb,7,38
+bithumb,Bithumb,7,36
+whitebit,WhiteBIT,7,37
+tidex,Tidex,7,38
 dextrade,Dex-Trade,7,39
 btcturk,BtcTurk PRO,7,40
-poloniex,Poloniex,7,41
-hotbit,Hotbit,7,42
-bitflyer,bitFlyer,7,43
-bitmax,AscendEX (BitMax),7,44
-wootrade,WOO Network,7,45
-btse,BTSE,7,46
-bitci,Bitci,7,47
+hotbit,Hotbit,7,41
+bitflyer,bitFlyer,7,42
+bitmax,AscendEX (BitMax),7,43
+wootrade,WOO Network,7,44
+btse,BTSE,7,45
+bitci,Bitci,7,46
+luno,Luno,7,47
 finexbox,FinexBox,7,48
-luno,Luno,7,49
-bitpanda,Bitpanda Pro,7,50
-coin_metro,Coinmetro,7,52
-emirex,Emirex,7,53
-delta_spot,Delta Exchange,7,56
-nice_hash,NiceHash,7,57
-coinsbit,Coinsbit,6,58
-p2pb2b,P2B,6,60
-bitforex,Bitforex,6,61
-paribu,Paribu,6,65
-bitcoin_com,FMFW.io,6,69
-cryptology,Cryptology,6,71
-catex,Catex,6,75
-toko_crypto,TokoCrypto,6,77
-nominex,Nominex,6,80
-tokenize,Tokenize,6,81
-bitazza,Bitazza,6,82
-coinzoom,Coinzoom,6,86
-independent_reserve,Independent Reserve,7,89
-wazirx,WazirX,6,91
-bitopro,BitoPro,6,92
-cex,CEX.IO,6,94
-foxbit,Foxbit,6,96
-kuna,Kuna Exchange,6,97
-bitlo,Bitlo,6,98
-zaif,Zaif,6,99
-nash,Nash,6,100
+bitopro,BitoPro,7,49
+emirex,Emirex,7,52
+coin_metro,Coinmetro,7,54
+delta_spot,Delta Exchange,7,55
+nice_hash,NiceHash,7,56
+coinsbit,Coinsbit,6,57
+p2pb2b,P2B,6,59
+bitforex,Bitforex,6,60
+paribu,Paribu,6,66
+poloniex,Poloniex,6,67
+bitcoin_com,FMFW.io,6,70
+cryptology,Cryptology,6,74
+toko_crypto,TokoCrypto,6,78
+catex,Catex,6,79
+independent_reserve,Independent Reserve,6,82
+nominex,Nominex,6,86
+tokenize,Tokenize,6,87
+bitazza,Bitazza,6,89
+coinzoom,Coinzoom,6,90
+bitpanda,Bitpanda Pro,6,94
+blockchain_com,Blockchain.com,6,96
+bitlo,Bitlo,6,97
+zaif,Zaif,6,98
+kuna,Kuna Exchange,6,99
+coinlist,Coinlist,6,100
