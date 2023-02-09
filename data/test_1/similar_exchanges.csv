@@ -11,51 +11,48 @@ bitfinex,Bitfinex,10,9
 binance,Binance,9,10
 upbit,Upbit,9,11
 bitget,Bitget,9,13
-mxc,MEXC Global,8,16
-gate,Gate.io,8,17
-bitstamp,Bitstamp,8,19
-latoken,LATOKEN,8,21
-exmo,EXMO,8,22
-coinex,CoinEx,8,24
-bitso,Bitso,8,25
-gemini,Gemini,8,26
-bittrex,Bittrex,8,28
-indodax,Indodax,8,31
-xt,XT.COM,8,32
-p2pb2b,P2B,7,35
-whitebit,WhiteBIT,7,36
-bithumb,Bithumb,7,37
-tidex,Tidex,7,38
-dextrade,Dex-Trade,7,39
-btcturk,BtcTurk PRO,7,40
-hotbit,Hotbit,7,41
-bitflyer,bitFlyer,7,42
-bitmax,AscendEX (BitMax),7,43
-cryptology,Cryptology,7,45
-btse,BTSE,7,46
-bitci,Bitci,7,47
-luno,Luno,7,48
-finexbox,FinexBox,7,49
-kanga,Kanga,7,50
-bitopro,BitoPro,7,51
+mxc,MEXC Global,8,15
+xt,XT.COM,8,17
+gate,Gate.io,8,18
+latoken,LATOKEN,8,20
+btcturk,BtcTurk PRO,8,22
+bitstamp,Bitstamp,8,23
+exmo,EXMO,8,24
+coinex,CoinEx,8,26
+bitso,Bitso,8,28
+gemini,Gemini,8,29
+bittrex,Bittrex,8,31
+tidex,Tidex,7,39
+whitebit,WhiteBIT,7,40
+bithumb,Bithumb,7,41
+dextrade,Dex-Trade,7,42
+hotbit,Hotbit,7,43
+bitflyer,bitFlyer,7,44
+bitmax,AscendEX (BitMax),7,45
+cryptology,Cryptology,7,46
+btse,BTSE,7,47
+bitci,Bitci,7,48
+tokenize,Tokenize,7,49
+luno,Luno,7,50
+independent_reserve,Independent Reserve,7,51
+finexbox,FinexBox,7,52
 emirex,Emirex,7,54
-coin_metro,Coinmetro,7,55
-delta_spot,Delta Exchange,7,56
+coin_metro,Coinmetro,7,56
+delta_spot,Delta Exchange,7,57
 nice_hash,NiceHash,7,58
 coinsbit,Coinsbit,6,59
-digifinex,DigiFinex,6,61
-bitforex,Bitforex,6,62
-poloniex,Poloniex,7,69
+bitforex,Bitforex,6,61
+paribu,Paribu,6,66
+pionex,Pionex,6,68
+poloniex,Poloniex,6,70
 bitcoin_com,FMFW.io,6,72
 catex,Catex,6,78
-toko_crypto,TokoCrypto,6,81
-independent_reserve,Independent Reserve,6,83
-nominex,Nominex,6,86
-tokenize,Tokenize,6,87
-bitazza,Bitazza,6,89
-coinzoom,Coinzoom,6,92
-bitpanda,Bitpanda Pro,7,95
-blockchain_com,Blockchain.com,6,96
-bitlo,Bitlo,6,98
-zaif,Zaif,6,99
-kuna,Kuna Exchange,6,100
+nominex,Nominex,6,84
+toko_crypto,TokoCrypto,6,85
+coinzoom,Coinzoom,6,89
+bitazza,Bitazza,6,93
+bitopro,BitoPro,6,96
+cex,CEX.IO,6,97
+bitpanda,Bitpanda Pro,6,98
+blockchain_com,Blockchain.com,6,99
+foxbit,Foxbit,6,100
