@@ -1,0 +1,2 @@
+orderbook_timestamp,book,bid,ask,spread,is_above
+2023-02-10T09:00:48+00:00,btc_mxn,409710.0,410130.0,0.10240655401945725,True
