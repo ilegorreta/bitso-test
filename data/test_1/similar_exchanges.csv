@@ -10,49 +10,48 @@ binance_us,Binance US,10,8
 bitfinex,Bitfinex,10,9
 binance,Binance,9,10
 bitget,Bitget,9,11
-upbit,Upbit,8,14
-xt,XT.COM,8,15
-whitebit,WhiteBIT,8,17
+gemini,Gemini,9,13
+upbit,Upbit,8,15
+xt,XT.COM,8,16
 gate,Gate.io,8,18
-mxc,MEXC Global,8,20
-btcturk,BtcTurk PRO,8,22
+mxc,MEXC Global,8,19
+whitebit,WhiteBIT,8,21
 bitstamp,Bitstamp,8,23
-exmo,EXMO,8,24
+btcturk,BtcTurk PRO,8,24
 latoken,LATOKEN,8,25
-hotbit,Hotbit,8,26
-poloniex,Poloniex,8,27
-bitso,Bitso,8,29
-coinex,CoinEx,8,30
-gemini,Gemini,8,31
-indodax,Indodax,8,36
-bittrex,Bittrex,8,37
-coinsbit,Coinsbit,7,39
-digifinex,DigiFinex,7,41
-bitrue,Bitrue,7,42
-tidex,Tidex,7,43
-bithumb,Bithumb,7,44
-dextrade,Dex-Trade,7,45
-paribu,Paribu,7,47
-bitflyer,bitFlyer,7,48
-bitmax,AscendEX (BitMax),7,49
+exmo,EXMO,8,26
+hotbit,Hotbit,8,27
+coinex,CoinEx,8,29
+bitso,Bitso,8,31
+indodax,Indodax,8,34
+bittrex,Bittrex,8,35
+coinsbit,Coinsbit,7,38
+digifinex,DigiFinex,7,39
+bitrue,Bitrue,7,40
+bithumb,Bithumb,7,41
+tidex,Tidex,7,42
+dextrade,Dex-Trade,7,43
+paribu,Paribu,7,44
+bitflyer,bitFlyer,7,46
+poloniex,Poloniex,7,47
+bitmax,AscendEX (BitMax),7,48
+independent_reserve,Independent Reserve,7,49
 luno,Luno,7,50
 finexbox,FinexBox,7,52
-blockchain_com,Blockchain.com,7,54
-coin_metro,Coinmetro,7,56
-kuna,Kuna Exchange,7,57
-nice_hash,NiceHash,7,59
-p2pb2b,P2B,6,60
+blockchain_com,Blockchain.com,7,55
+kuna,Kuna Exchange,7,56
+coin_metro,Coinmetro,7,57
+nice_hash,NiceHash,7,60
+p2pb2b,P2B,6,61
 pionex,Pionex,6,66
-cryptology,Cryptology,6,69
-bitcoin_com,FMFW.io,6,70
-btse,BTSE,6,72
-catex,Catex,6,82
-nominex,Nominex,6,90
-bitazza,Bitazza,6,91
-bitci,Bitci,6,93
-exmarkets,ExMarkets,6,94
-bitpanda,Bitpanda Pro,6,96
-cex,CEX.IO,5,97
-wazirx,WazirX,6,98
-independent_reserve,Independent Reserve,6,99
-btcmarkets,BTCMarkets,6,100
+bitcoin_com,FMFW.io,6,72
+cryptology,Cryptology,6,73
+btse,BTSE,6,75
+nominex,Nominex,6,88
+bitazza,Bitazza,6,89
+bitci,Bitci,6,92
+exmarkets,ExMarkets,6,93
+bitopro,BitoPro,6,94
+wazirx,WazirX,6,97
+btcmarkets,BTCMarkets,6,98
+bitpanda,Bitpanda Pro,6,100
