@@ -1,56 +1,54 @@
 exchange_id,exchange_name,trust_score,trust_score_rank
 gdax,Coinbase Exchange,10,1
-kucoin,KuCoin,10,2
-kraken,Kraken,10,3
-huobi,Huobi,10,4
-bybit_spot,Bybit,10,5
+okex,OKX,10,2
+kucoin,KuCoin,10,3
+bybit_spot,Bybit,10,4
+huobi,Huobi,10,5
 crypto_com,Crypto.com Exchange,10,6
 bitfinex,Bitfinex,10,7
 binance,Binance,9,8
-okex,OKX,9,9
-bitget,Bitget,9,10
+bitget,Bitget,9,9
+kraken,Kraken,9,10
 binance_us,Binance US,9,11
 gemini,Gemini,9,13
 upbit,Upbit,8,15
 xt,XT.COM,8,16
 gate,Gate.io,8,18
-mxc,MEXC Global,8,19
+mxc,MEXC Global,8,20
 whitebit,WhiteBIT,8,22
-bitstamp,Bitstamp,8,23
-latoken,LATOKEN,8,24
-hotbit,Hotbit,8,25
+btcturk,BtcTurk PRO,8,23
+bitstamp,Bitstamp,8,24
+latoken,LATOKEN,8,25
 exmo,EXMO,8,26
-coinex,CoinEx,8,28
-bitso,Bitso,8,30
-bittrex,Bittrex,8,33
-indodax,Indodax,8,35
-coinsbit,Coinsbit,7,36
-digifinex,DigiFinex,7,38
-bitrue,Bitrue,7,39
-bithumb,Bithumb,7,40
-tidex,Tidex,7,41
-paribu,Paribu,7,42
-dextrade,Dex-Trade,7,43
-btcturk,BtcTurk PRO,7,44
-bitflyer,bitFlyer,7,46
-poloniex,Poloniex,7,47
-bitmax,AscendEX (BitMax),7,48
-independent_reserve,Independent Reserve,7,49
+hotbit,Hotbit,8,27
+bitso,Bitso,8,29
+coinex,CoinEx,8,30
+indodax,Indodax,8,34
+bittrex,Bittrex,8,36
+coinsbit,Coinsbit,7,38
+digifinex,DigiFinex,7,40
+bitrue,Bitrue,7,41
+tidex,Tidex,7,42
+bithumb,Bithumb,7,43
+dextrade,Dex-Trade,7,44
+paribu,Paribu,7,46
+bitflyer,bitFlyer,7,47
+poloniex,Poloniex,7,48
+bitmax,AscendEX (BitMax),7,49
+independent_reserve,Independent Reserve,7,50
 luno,Luno,7,51
-finexbox,FinexBox,7,52
-blockchain_com,Blockchain.com,7,53
-kuna,Kuna Exchange,7,55
-coin_metro,Coinmetro,7,56
-nice_hash,NiceHash,7,58
+finexbox,FinexBox,7,53
+kuna,Kuna Exchange,7,56
+coinspro,Coins.ph,7,57
+coin_metro,Coinmetro,7,58
+nice_hash,NiceHash,7,59
 p2pb2b,P2B,6,60
 pionex,Pionex,6,68
-cryptology,Cryptology,6,72
-bitcoin_com,FMFW.io,6,73
-btse,BTSE,6,76
-nominex,Nominex,6,90
-bitazza,Bitazza,6,92
-bitci,Bitci,6,94
-bitpanda,Bitpanda Pro,6,97
-btcmarkets,BTCMarkets,6,98
-zaif,Zaif,6,99
-foxbit,Foxbit,5,100
+cryptology,Cryptology,6,73
+bitcoin_com,FMFW.io,6,75
+btse,BTSE,6,78
+bitazza,Bitazza,6,90
+nominex,Nominex,6,91
+bitci,Bitci,6,93
+bitopro,BitoPro,6,94
+bitpanda,Bitpanda Pro,6,100
