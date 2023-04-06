@@ -1,71 +1,42 @@
 exchange_id,exchange_name,trust_score,trust_score_rank
 binance,Binance,10,1
-gdax,Coinbase Exchange,10,2
 kucoin,KuCoin,10,3
 kraken,Kraken,10,4
 bitfinex,Bitfinex,10,5
 bybit_spot,Bybit,9,6
 gate,Gate.io,9,7
-mxc,MEXC Global,9,8
 huobi,Huobi,9,9
-bitget,Bitget,9,10
-bingx,BingX,9,11
+binance_us,Binance US,9,11
 crypto_com,Crypto.com Exchange,9,12
-binance_us,Binance US,9,13
-phemex,Phemex,9,14
-gemini,Gemini,9,15
-lbank,LBank,8,16
-bitmart,BitMart,8,17
-okex,OKX,8,18
-bkex,BKEX,8,19
-whitebit,WhiteBIT,8,20
-digifinex,DigiFinex,8,21
-tidex,Tidex,8,22
-btcex,BTCEX,8,23
-p2pb2b,P2B,7,24
+gemini,Gemini,9,14
+mxc,MEXC Global,8,16
+whitebit,WhiteBIT,8,19
 bitstamp,Bitstamp,8,25
-coinstore,Coinstore,8,26
-btcturk,BtcTurk PRO,8,27
-hotbit,Hotbit,8,28
-exmo,EXMO,8,29
-coinex,CoinEx,8,31
-bitso,Bitso,8,33
-max_maicoin,Max Maicoin,8,34
-bittrex,Bittrex,8,35
-luno,Luno,8,36
-indodax,Indodax,8,37
-blockchain_com,Blockchain.com,8,38
-bitmex_spot,BitMEX,8,39
-nice_hash,NiceHash,8,40
-coinspro,Coins.ph,8,41
-upbit,Upbit,7,42
-bitrue,Bitrue,7,43
-coinsbit,Coinsbit,7,44
-bithumb,Bithumb,7,45
-deepcoin,Deepcoin,7,46
-bigone,BigONE,7,47
-paribu,Paribu,7,48
-dextrade,Dex-Trade,7,49
-bitflyer,bitFlyer,7,50
-poloniex,Poloniex,7,51
-latoken,LATOKEN,7,52
-bitmax,AscendEX (BitMax),7,54
-bit_com,BIT,7,55
-wootrade,WOO X,7,56
-independent_reserve,Independent Reserve,7,57
-finexbox,FinexBox,7,59
-nominex,Nominex,7,60
-kanga,Kanga,7,61
-bitopro,BitoPro,7,62
-bitpanda,Bitpanda Pro,7,64
-okcoin,Okcoin,8,65
-coin_metro,Coinmetro,7,66
-kuna,Kuna Exchange,7,67
-delta_spot,Delta Exchange,7,68
-xt,XT.COM,6,69
-probit,ProBit Global,5,71
-pionex,Pionex,6,74
-cryptology,Cryptology,6,78
-bitexen,Bitexen,6,80
-btse,BTSE,6,92
-tokenize,Tokenize,6,96
+btcturk,BtcTurk PRO,8,26
+hotbit,Hotbit,8,27
+exmo,EXMO,8,28
+coinex,CoinEx,8,30
+bitso,Bitso,8,31
+bittrex,Bittrex,8,34
+blockchain_com,Blockchain.com,8,35
+coinspro,Coins.ph,8,37
+nice_hash,NiceHash,8,38
+bithumb,Bithumb,7,41
+paribu,Paribu,7,46
+independent_reserve,Independent Reserve,7,51
+luno,Luno,7,52
+finexbox,FinexBox,7,53
+nominex,Nominex,7,56
+indodax,Indodax,7,57
+bitopro,BitoPro,7,58
+btcmarkets,BTCMarkets,7,60
+coin_metro,Coinmetro,7,62
+kuna,Kuna Exchange,7,63
+delta_spot,Delta Exchange,7,64
+upbit,Upbit,6,66
+coindcx,CoinDCX,6,74
+cryptology,Cryptology,6,76
+bitexen,Bitexen,6,77
+bitmax,AscendEX (BitMax),6,81
+bit_com,BIT,6,82
+btse,BTSE,6,91
