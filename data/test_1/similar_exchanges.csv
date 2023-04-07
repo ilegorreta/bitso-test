@@ -1,42 +1,73 @@
 exchange_id,exchange_name,trust_score,trust_score_rank
 binance,Binance,10,1
-kucoin,KuCoin,10,3
-kraken,Kraken,10,4
-bitfinex,Bitfinex,10,5
-bybit_spot,Bybit,9,6
-gate,Gate.io,9,7
-huobi,Huobi,9,9
-binance_us,Binance US,9,11
-crypto_com,Crypto.com Exchange,9,12
-gemini,Gemini,9,14
-mxc,MEXC Global,8,16
-whitebit,WhiteBIT,8,19
-bitstamp,Bitstamp,8,25
-btcturk,BtcTurk PRO,8,26
-hotbit,Hotbit,8,27
-exmo,EXMO,8,28
+gdax,Coinbase Exchange,10,2
+kraken,Kraken,10,3
+bitfinex,Bitfinex,10,4
+mxc,MEXC Global,9,5
+bitget,Bitget,9,6
+bybit_spot,Bybit,9,7
+gate,Gate.io,9,8
+okex,OKX,9,9
+huobi,Huobi,9,10
+bingx,BingX,9,11
+binance_us,Binance US,9,12
+crypto_com,Crypto.com Exchange,9,13
+phemex,Phemex,9,14
+gemini,Gemini,9,15
+lbank,LBank,8,16
+kucoin,KuCoin,8,17
+bkex,BKEX,8,18
+bitmart,BitMart,8,19
+whitebit,WhiteBIT,8,20
+digifinex,DigiFinex,8,21
+btcex,BTCEX,8,22
+tidex,Tidex,8,23
+p2pb2b,P2B,8,24
+hotbit,Hotbit,8,25
+exmo,EXMO,8,26
+btcturk,BtcTurk PRO,8,27
+bitstamp,Bitstamp,8,28
+latoken,LATOKEN,8,29
 coinex,CoinEx,8,30
-bitso,Bitso,8,31
-bittrex,Bittrex,8,34
-blockchain_com,Blockchain.com,8,35
-coinspro,Coins.ph,8,37
-nice_hash,NiceHash,8,38
-bithumb,Bithumb,7,41
+max_maicoin,Max Maicoin,8,32
+bitso,Bitso,8,34
+bittrex,Bittrex,8,35
+luno,Luno,8,36
+blockchain_com,Blockchain.com,8,37
+bitmex_spot,BitMEX,8,38
+coinspro,Coins.ph,8,39
+nice_hash,NiceHash,8,40
+bitrue,Bitrue,7,41
+coinsbit,Coinsbit,7,42
+bithumb,Bithumb,7,43
+deepcoin,Deepcoin,7,44
+bigone,BigONE,7,45
 paribu,Paribu,7,46
-independent_reserve,Independent Reserve,7,51
-luno,Luno,7,52
+poloniex,Poloniex,7,47
+coinstore,Coinstore,7,48
+dextrade,Dex-Trade,7,49
+bitflyer,bitFlyer,7,50
+wootrade,WOO X,7,52
 finexbox,FinexBox,7,53
-nominex,Nominex,7,56
+nominex,Nominex,7,55
+bitopro,BitoPro,7,56
 indodax,Indodax,7,57
-bitopro,BitoPro,7,58
-btcmarkets,BTCMarkets,7,60
-coin_metro,Coinmetro,7,62
-kuna,Kuna Exchange,7,63
-delta_spot,Delta Exchange,7,64
-upbit,Upbit,6,66
-coindcx,CoinDCX,6,74
-cryptology,Cryptology,6,76
-bitexen,Bitexen,6,77
-bitmax,AscendEX (BitMax),6,81
-bit_com,BIT,6,82
-btse,BTSE,6,91
+independent_reserve,Independent Reserve,7,58
+coin_metro,Coinmetro,7,60
+kuna,Kuna Exchange,7,61
+delta_spot,Delta Exchange,7,62
+okcoin,Okcoin,8,63
+upbit,Upbit,6,64
+probit,ProBit Global,6,66
+pionex,Pionex,6,68
+cryptology,Cryptology,6,72
+bitmax,AscendEX (BitMax),6,76
+bit_com,BIT,6,78
+bitbns,BitBNS,6,79
+kanga,Kanga,6,85
+bitazza,Bitazza,6,87
+btse,BTSE,6,89
+btcmarkets,BTCMarkets,6,97
+wazirx,WazirX,6,98
+bitpanda,Bitpanda Pro,6,99
+coinlist,Coinlist,6,100
