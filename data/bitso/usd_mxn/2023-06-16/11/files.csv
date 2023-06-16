@@ -1,0 +1,2 @@
+orderbook_timestamp,book,bid,ask,spread,is_above
+2023-06-16T11:00:45+00:00,usd_mxn,17.131,17.143,0.06999941667153038,False
